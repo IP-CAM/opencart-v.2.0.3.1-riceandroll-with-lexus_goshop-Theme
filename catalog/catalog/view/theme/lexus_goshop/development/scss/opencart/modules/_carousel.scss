@@ -1,0 +1,28 @@
+// pav carousel
+.#{$app-brand-prefix}carousel {    
+    .carousel-control{
+        border: 1px solid $border-color;
+		width: 30px;
+		height: 30px;
+		color: $border-color; 
+		background: #fff;
+		padding: 5px;
+		&.left {
+			right: auto;
+			left: 0;
+		}
+		&.right {
+			right: 0;
+			left: auto;
+		}
+		&:hover {
+			color: $theme-color-default;
+			border-color:$theme-color-default;
+		}       
+    } 
+    .item-inner {
+    	img {
+    		border: 1px solid $border-color;
+    	}
+    }   
+}

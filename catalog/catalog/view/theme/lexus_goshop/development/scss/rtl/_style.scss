@@ -1,0 +1,54 @@
+.rtl {
+	ul, ol {
+	    padding-right: 0;
+	}
+
+	.zoomContainer .zoomWindow {
+	    right: 100% !important;
+	}
+	#iview .iview-controlNextNav {
+		text-indent: -68px;
+	}
+	#iview .iview-controlPrevNav {
+		text-indent: -126px;
+	}
+	.nav-tabs > li {
+		float: right;
+	}
+	
+	.head a {
+	    float: left!important;
+	}
+	.space-right-15 {
+		margin-left: 15px !important;
+		margin-right: 0 !important;
+	}
+	.pav-megamenu .navbar-nav > li.aligned-center .dropdown-menu {
+		transform: translate(50%);
+	}
+	.product-list .action > div:first-child {
+		border-right: 1px solid #e1e1e1;
+	}
+	.product-info .quantity-adder .add {
+		border-left: 1px solid #e1e1e1!important;
+	}
+	// Reset rounded corners
+	.input-group .form-control:first-child,
+	.input-group-addon:first-child,
+	.input-group-btn:first-child > .btn,
+	.input-group-btn:first-child > .btn-group > .btn,
+	.input-group-btn:first-child > .dropdown-toggle,
+	.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+	.input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+	  @include border-right-radius(2px);
+	}
+	.input-group-btn {
+		&:last-child {
+		    > .btn,
+		    > .btn-group {
+		    	margin-left: 0px;
+		    	margin-right: -1px;
+		    }
+		}
+	}
+}

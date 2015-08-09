@@ -1,0 +1,122 @@
+@media (min-width: $screen-md) {
+	.same-height-column {
+		.row.inner {
+			display: table;
+			width: 100%;
+			> [class*="col-"] {
+				float: none;
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+	}
+}
+.col-nopadding{
+	.row{
+		margin-left: 0;
+		margin-right: 0;
+		[class*="col-"]{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+.btn {
+	text-transform: uppercase;
+	font-family: $font-family-third;
+	letter-spacing: 1px;
+}
+.alert {
+	margin: $grid-gutter-width 0;
+}
+.comment-warning {
+	color: red;
+}
+.list-arrow {
+	> li > a{
+		padding: 0 20px!important;
+	}
+}
+.line {
+	@include size(118px,3px);
+	background: $theme-color;
+	display: inline-block;
+}
+.heading-style {
+	.panel-heading {
+		background: none;
+		padding: 0;
+		.panel-title {
+			padding: 30px 0 0;
+			border-top: 3px solid $theme-color;
+			display: inline-block;
+		}
+	}
+}
+.bg-gray {
+	background: #f8f8f8;
+}
+//wiget social
+.social {
+	
+}
+//wiget about
+.about {
+	span {
+		color: $theme-color-third;
+	}
+	.fa {
+		margin: 0 5px;
+	}
+}
+
+/* back top top */
+.scrollup {
+    background: $theme-color;
+    bottom: 82px;
+    display: none;
+    position: fixed;
+    @include rtl-right(10px);
+    @include rounded-corners(100%);   
+    @include size(40px,40px);
+	text-align: center;
+	font-size: 13px;
+	color: #fff!important;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: $font-family-secondary;
+	padding: 2px;
+	z-index: 9999;
+	.fa { display: block;}
+}
+.bg-category {
+	background: url("#{$image-theme-path-base}img-category.jpg") no-repeat center;
+}
+/*custom html*/
+.custom-html {
+	font-family: $font-family-third;
+	font-size: 13px;
+	width: 100%;
+	> div {
+		width: 33.33%;
+		margin: 0;
+	}
+	.media-left, .media-body {
+		vertical-align: middle;
+	}
+	.fa {
+		font-size: 20px;
+		color: $theme-color;
+		text-align: center;
+		line-height: 36px;
+		background: #1d282e;
+		@include square(36px);
+		@include rtl-margin-right(5px);
+	}
+	.title{
+		color: #fff;
+		text-transform: uppercase;				
+		font-weight: 700;
+		letter-spacing: 2px;
+	}
+}

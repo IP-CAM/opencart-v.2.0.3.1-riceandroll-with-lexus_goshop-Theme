@@ -1,0 +1,16 @@
+// newsletter
+.#{$app-brand-prefix}-newsletter {
+	.panel-body {
+        @include rtl-margin-left(30px);
+    }
+    .valid{
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        margin-top: -20px;
+    }
+    
+}
