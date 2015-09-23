@@ -1,59 +1,58 @@
 <?php
-// Heading 
-$_['heading_title']             = 'Programa de afiliados';
+// Heading
+$_['heading_title']             = 'Programa de afiliado';
 
 // Text
 $_['text_account']              = 'Cuenta';
-$_['text_register']             = 'Registro afiliados';
-$_['text_account_already']      = 'Si ya tienes una cuenta con nosotros, por favor inicia sesion en la <a href="%s">página de acceso</a>.';
-$_['text_signup']               = 'Para crear una cuenta de afiliado rellena el siguiente formulario asegurándote de rellenar todos los datos requeridos:';
-$_['text_your_details']         = 'Tus datos personales';
-$_['text_your_address']         = 'Tus datos de dirección';
-$_['text_payment']              = 'Información de pago';
-$_['text_your_password']        = 'Tu contraseña';
+$_['text_register']             = 'Afiliados Registrarse';
+$_['text_account_already']      = 'Si ya tiene una cuenta con nosotros, por favor entre en ella <a href="%s">Pagina de ingreso</a>.';
+$_['text_signup']               = 'Para crear una cuenta de afiliado, rellene el siguiente formulario asegurar completar todos los campos requeridos:';
+$_['text_your_details']         = 'Detalles personales';
+$_['text_your_address']         = 'Su Direccion';
+$_['text_payment']              = 'Informacion de Pago';
+$_['text_your_password']        = 'Su Password';
 $_['text_cheque']               = 'Cheque';
 $_['text_paypal']               = 'PayPal';
-$_['text_bank']                 = 'Transferencia bancaria';
-$_['text_agree']                = 'He leido y acepto las <a class="thickbox" href="%s" alt="%s"><b>%s</b></a>';
+$_['text_bank']                 = 'Transferencia Bancaria';
+$_['text_agree']                = 'He le�do y estoy de acuerdo con el <a href="%s" class="agree"><b>%s</b></a>';
 
 // Entry
-$_['entry_firstname']           = 'Nombre:';
-$_['entry_lastname']            = 'Apellidos:';
-$_['entry_email']               = 'E-Mail:';
-$_['entry_telephone']           = 'Teléfono:';
-$_['entry_fax']                 = 'Fax:';
-$_['entry_company']             = 'Compañia:';
-$_['entry_website']             = 'Sitio web:';
-$_['entry_address_1']           = 'Dirección 1:';
-$_['entry_address_2']           = 'Dirección 2:';
-$_['entry_postcode']            = 'Código postal:';
-$_['entry_city']                = 'Ciudad:';
-$_['entry_country']             = 'País:';
-$_['entry_zone']                = 'Región / estado:';
-$_['entry_tax']                 = 'ID Impuestos:';
-$_['entry_payment']             = 'Método pago:';
-$_['entry_cheque']              = 'Nombre receptor cheque:';
-$_['entry_paypal']              = 'Email cuenta payPal:';
-$_['entry_bank_name']           = 'Nombre banco:';
-$_['entry_bank_branch_number']  = 'Número oficina bancaria:';
-$_['entry_bank_swift_code']     = 'Código SWIFT:';
-$_['entry_bank_account_name']   = 'Nombre cuenta:';
-$_['entry_bank_account_number'] = 'Número cuenta:';
-$_['entry_password']            = 'Contraseña:';
-$_['entry_confirm']             = 'Confirmar contraseña:';
+$_['entry_firstname']           = 'Nombre';
+$_['entry_lastname']            = 'Apellido';
+$_['entry_email']               = 'E-Mail';
+$_['entry_telephone']           = 'Telefono';
+$_['entry_fax']                 = 'Fax';
+$_['entry_company']             = 'Empresa';
+$_['entry_website']             = 'Sitio WEB';
+$_['entry_address_1']           = 'Direccion 1';
+$_['entry_address_2']           = 'Direccion 2';
+$_['entry_postcode']            = 'Codigo Postal';
+$_['entry_city']                = 'Ciudad';
+$_['entry_country']             = 'Pais';
+$_['entry_zone']                = 'Region / Estado';
+$_['entry_tax']                 = 'ID de impuesto';
+$_['entry_payment']             = 'Metodo de Pago';
+$_['entry_cheque']              = 'Beneficiario del Cheque';
+$_['entry_paypal']              = 'E-mail de la cuenta PayPal';
+$_['entry_bank_name']           = 'Nombre del Banco';
+$_['entry_bank_branch_number']  = 'N�mero ABA / BSB (N�mero de la oficina)';
+$_['entry_bank_swift_code']     = 'Codigo SWIFT';
+$_['entry_bank_account_name']   = 'Titular de la cuenta';
+$_['entry_bank_account_number'] = 'Numero de la cuenta';
+$_['entry_password']            = 'Password';
+$_['entry_confirm']             = 'Confirme Password';
 
-// Error 
-$_['error_exists']              = 'Error: La dirección de e-mail ya está registrada!';
-$_['error_firstname']           = 'El nombre debe tener entre 1 y 32 carácteres!';
-$_['error_lastname']            = 'El apellido/s debe tener entre 1 y 32 carácteres!';
-$_['error_email']               = 'La dirección email no parece ser válida!';
-$_['error_telephone']           = 'El número de teléfono debe tener entre 3 y 32 carácteres!';
-$_['error_password']            = 'La contraseña debe tener entre 4 y 20 carácteres!';
-$_['error_confirm']             = 'La contraseña y la confirmación de contraseña no concuerdan!';
-$_['error_address_1']           = 'La dirección debe tener entre 3 y 128 carácteres!';
-$_['error_city']                = 'El nombre de ciudad debe tener entre 2 y 128 carácteres!';
-$_['error_country']             = 'Por favor selecciona un país!';
-$_['error_zone']                = 'Por favor selecciona una región / estado!';
-$_['error_postcode']            = 'El código postal debe tener entre 2 y 10 carácteres!';
-$_['error_agree']               = 'Error: Debes aceptar las %s!';
-?>
+// Error
+$_['error_exists']              = 'Advertencia: E-Mail ya est� registrado!';
+$_['error_firstname']           = 'Primer nombre debe tener entre 1 y 32 caracteres!';
+$_['error_lastname']            = 'Apellidos tiene que ser entre 1 y 32 caracteres!';
+$_['error_email']               = 'Direcci�n E-Mail no parece ser v�lido!';
+$_['error_telephone']           = 'Tel�fono debe tener entre 3 y 32 caracteres!';
+$_['error_password']            = 'La contrase�a debe tener entre 4 y 20 caracteres!';
+$_['error_confirm']             = 'Confirmaci�n de la contrase�a no coincide con la contrase�a!';
+$_['error_address_1']           = 'Direcci�n 1 debe tener entre 3 y 128 caracteres!';
+$_['error_city']                = 'Ciudad debe tener entre 2 y 128 caracteres!';
+$_['error_country']             = 'Por favor, seleccione un pa�s!';
+$_['error_zone']                = 'Por favor seleccione una regi�n / estado!';
+$_['error_postcode']            = 'C�digo postal debe tener entre 2 y 10 caracteres!';
+$_['error_agree']               = 'Advertencia: Usted debe aceptar los %s!';

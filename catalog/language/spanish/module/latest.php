@@ -1,7 +1,6 @@
 <?php
-// Heading 
-$_['heading_title'] = 'Lo más nuevo';
+// Heading
+$_['heading_title'] = 'Mas reciente';
 
 // Text
-$_['text_reviews']  = 'Basado en %s valoraciones.'; 
-?>
+$_['text_tax']      = 'sin impuesto:';

@@ -3,29 +3,29 @@
 $_['heading_title']             = 'Royal Mail';
 
 // Text
-$_['text_shipping']             = 'Envío';
-$_['text_success']              = 'Éxito: has modificado envío Royal Mail!';
-$_['text_1st_class_standard']   = 'Paquete primera clase standar';
-$_['text_1st_class_recorded']   = 'Paquete primera clase registrado';
-$_['text_2nd_class_standard']   = 'Paquete segunda clase standar';
-$_['text_2nd_class_recorded']   = 'Paquete segunda clase registrado';
-$_['text_standard_parcels']     = 'Parcela estandar';
-$_['text_airmail']              = 'Correo aereo';
-$_['text_international_signed'] = 'Firmado internacionalmente';
+$_['text_shipping']             = 'Shipping';
+$_['text_success']              = 'Success: You have modified Royal Mail shipping!';
+$_['text_1st_class_standard']   = 'First Class Standard Post';
+$_['text_1st_class_recorded']   = 'First Class Recorded Post';
+$_['text_2nd_class_standard']   = 'Second Class Standard Post';
+$_['text_2nd_class_recorded']   = 'Second Class Recorded Post';
+$_['text_standard_parcels']     = 'Standard Parcels';
+$_['text_airmail']              = 'Airmail';
+$_['text_international_signed'] = 'International Signed';
 $_['text_airsure']              = 'Airsure';
-$_['text_surface']              = 'Superficie';
+$_['text_surface']              = 'Surface';
 
 // Entry
-$_['entry_service']             = 'Servicios:';
-$_['entry_display_weight']      = 'Mostrar Entrega Peso:<br /><span class="help">¿Quieres mostrar el peso de envío? (p.e.  Peso entrega: 2.7674 Kg\'s)</span>';
-$_['entry_display_insurance']   = 'Mostrar seguro:<br /><span class="help">¿Quieres mostrar el seguro de envío? (p.e. Asegurado hasta &pound;500)</span>';
-$_['entry_display_time']        = 'Mostrar tiempo entrega:<br /><span class="help">¿Quieres mostrar el tiempo de entrega? (p.e. Envío de 3 a 5 días)</span>';
-$_['entry_weight_class']        = 'Tipo peso:';
-$_['entry_tax']                 = 'Tipo de impuesto:';
-$_['entry_geo_zone']            = 'Geo Zona:';
-$_['entry_status']              = 'Estado:';
-$_['entry_sort_order']          = 'Orden de aparición:';
+$_['entry_service']             = 'Services:';
+$_['entry_display_weight']      = 'Display Delivery Weight:<br /><span class="help">Do you want to display the shipping weight? (e.g. Delivery Weight : 2.7674 Kg\'s)</span>';
+$_['entry_display_insurance']   = 'Display Insurance:<br /><span class="help">Do you want to display the shipping insurance? (e.g. Insured upto &pound;500)</span>';
+$_['entry_display_time']        = 'Display Delivery Time:<br /><span class="help">Do you want to display the shipping time? (e.g. Ships within 3 to 5 days)</span>';
+$_['entry_weight_class']        = 'Weight Class:';
+$_['entry_tax']                 = 'Tax Class:';
+$_['entry_geo_zone']            = 'Geo Zone:';
+$_['entry_status']              = 'Status:';
+$_['entry_sort_order']          = 'Sort Order:';
 
 // Error
-$_['error_permission']          = 'Cuidado: No tienes permisos para modificar Royal Mail shipping!';
+$_['error_permission']          = 'Warning: You do not have permission to modify Royal Mail shipping!';
 ?>

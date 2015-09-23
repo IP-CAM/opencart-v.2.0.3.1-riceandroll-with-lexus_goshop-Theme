@@ -1,28 +1,13 @@
 <?php
-// Heading 
-$_['heading_title']    = 'Comprar un vale de regalo';
+// Heading
+$_['heading_title'] = 'Tarjeta de regalo';
 
 // Text
-$_['text_voucher']     = 'Vale regalo';
-$_['text_description'] = 'Este vale de regalo serÃ¡ enviado al destinatario despuÃ©s de que tu pedido haya sido pagado.';
-$_['text_agree']       = 'Entiendo que el vale regalo es no reembolsable.';
-$_['text_message']     = '<p>Gracias por comprar un vale regalo! Una vez que hayas completado tu pedido se enviarÃ¡ el vale regalo al destinatario por e-mail junto a los detalles de como utilizarlo.</p>';
-$_['text_for']         = '%s Vale regalo para %s';
+$_['text_success']  = 'Éxito: Tu descuento vale de regalo se ha aplicado!';
 
 // Entry
-$_['entry_to_name']    = 'Nombre destinatario:';
-$_['entry_to_email']   = 'E-mail destinatario:';
-$_['entry_from_name']  = 'Tu nombre:';
-$_['entry_from_email'] = 'Tu e-mail:';
-$_['entry_message']    = 'Mensaje:<br /><span class="help">(Opcional)</span>';
-$_['entry_amount']     = 'Cantidad:<br /><span class="help">(El valor debe tener entre BsF. 1.00 y BsF. 1,000.00)</span>';
-$_['entry_theme']      = 'Tema vale regalo:';
+$_['entry_voucher'] = 'Ingrese su código de bono regalo aquí';
 
 // Error
-$_['error_to_name']    = 'El nombre del destinatario debe tener entre 1 y 64 carÃ¡cteres!';
-$_['error_from_name']  = 'Tu nombre debe tener entre 1 y 64 carÃ¡cteres!';
-$_['error_email']      = 'La direcciÃ³n de e-mail no parece ser vÃ¡lida!';
-$_['error_amount']     = 'La cantidad debe tener entre %s y %s!';
-$_['error_theme']      = 'Debes seleccionar un tema!';
-$_['error_agree']      = 'Error: Debes aceptar que los vales de regalo no son reembolsables!';
-?>
+$_['error_voucher'] = 'Advertencia: Vale de Regalo no es válida o el saldo se ha agotado!';
+$_['error_empty']   = 'Advertencia: Por favor, introduzca un código de cupón!';

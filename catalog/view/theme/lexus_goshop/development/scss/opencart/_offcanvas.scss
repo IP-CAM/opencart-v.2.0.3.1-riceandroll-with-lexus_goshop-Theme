@@ -1,0 +1,102 @@
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: $screen-md-min) {
+    .row-offcanvas {
+        position: relative;
+        @include transition(all 0.25s ease-out);
+    }
+    .row-offcanvas-right {
+        @include rtl-right(0);
+    }
+    .row-offcanvas-left {
+        @include rtl-left(0);
+    }
+    .row-offcanvas-right
+    .sidebar-offcanvas {
+        @include rtl-right(-50%);
+    }
+    .row-offcanvas-left
+    .sidebar-offcanvas {
+        @include rtl-left(-50%);
+    }
+    .row-offcanvas-right.active {
+        @include rtl-right(50%);
+    }
+    .row-offcanvas-left.active {
+        @include rtl-left(50%);
+    }
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 50%;
+        padding: 0 20px;
+        ul, ol {
+            padding: 0;
+            li {
+                list-style: none;
+            }
+        }
+    }
+    .bottom-offcanvas {
+        border-top: 1px solid $border-color;
+        padding: 10px 0;
+    }
+    
+    .offcanvas-footer {
+        border: none;
+    }
+}
+/*offcanvas-menu*/
+#offcanvasmenu {
+  .navbar-nav {
+    float: none;
+    > li {
+      float: none;
+      border-bottom: 1px solid $border-color;
+      >a {
+        background: transparent;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        font-size: 15px;
+        padding-left: 0;
+        font-weight: 700; 
+      }
+    }
+  }
+  .dropdown-menu {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0 8px;
+    position: static;
+    visibility: visible;
+    width: auto!important;
+    @include opacity (1);
+    a {
+      font-size: 13px;
+      padding: 5px 0;
+      display: block;
+      background: none;
+    }
+    .widget-video{
+        display: none;
+    }
+  }
+  .w-product {
+    padding: 0;
+  }
+  .product-block{
+    border: none;
+    .zoom,.product-label-special{
+        display: none;
+    }
+
+  } 
+}

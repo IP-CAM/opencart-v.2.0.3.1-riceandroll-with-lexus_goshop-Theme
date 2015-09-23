@@ -1,9 +1,8 @@
 <?php
-// Heading 
-$_['heading_title'] = 'Salir';
+// Heading
+$_['heading_title'] = 'Salir de la cuenta';
 
 // Text
-$_['text_message']  = '<p>Has cerrado sesión. Ahora puedes abandonar el ordenador.</p><p>Tu cesta de la compra ha sido guardada, los items en la cesta se restaurarán cuando inicies sesión de nuevo con tu cuenta.</p>';
+$_['text_message']  = '<p>Ha solicitado salir de su cuenta. Ahora es seguro abandonar el ordenador.</p><p>Su cesta de la compra ha sido guardado y el contenido del mismo ser� restaurado cuando vuelva a entrar en su cuenta.</p>';
 $_['text_account']  = 'Cuenta';
 $_['text_logout']   = 'Salir';
-?>

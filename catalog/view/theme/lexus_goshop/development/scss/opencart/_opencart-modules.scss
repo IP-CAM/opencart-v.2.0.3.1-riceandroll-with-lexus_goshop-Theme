@@ -1,0 +1,127 @@
+// owl-carousel default opencart
+body {    
+    .owl-wrapper-outer {
+        border: none;
+        @include box-shadow(none);
+    }
+}
+
+//== Carousel
+// --------------------------------------------------
+.carousel-controls {
+    position: absolute;
+    @include rtl-right(0);
+    top: -35px;
+    .carousel-control{
+        border: none;
+        &.left {
+            @include rtl-left(-40px);
+        }
+    }
+    &.carousel-center {
+        right: 50%;
+        top: 0;
+    }
+}
+.carousel-control{
+    top: 50%;
+    margin-top: -20px;
+    border: 1px solid $border-color;
+    &:hover {
+        border-color: $theme-color;
+    }
+    &.left {
+        background: none;
+    }
+    &.right {
+        background: none;
+    }
+}
+
+// Module fitter
+.refine-search {
+    .item-name {
+        font-family: $font-family-third;
+        font-weight: 700;
+        color: $theme-color-default;
+        font-size: 13px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+    }
+    .list-group {
+        border-bottom: 1px solid $border-color;
+        padding: 20px;               
+        label {
+            font-weight: 400;
+            font-family: $font-family-secondary;
+            font-size: 14px;
+            color: $theme-color-third; 
+        }
+    }
+}
+
+.paging {
+    text-align: center;
+}
+// module cart
+#cart {
+    position: relative;
+    .cart-inner a {
+        color: $cart-color;
+        font-weight: $cart-font-weight;
+        font-family: $font-family-third;
+        font-size: $cart-font-size;
+        background: $cart-bg-color;
+        display: inline-block;
+        padding: 13px 20px;
+        @include rounded-corners(2px); 
+        &:hover {
+            background: $cart-bg-color-hover;
+        }
+    }
+    .icon-cart {        
+        font-size: $cart-font-icon-size;
+        @include rtl-margin-right(10px);
+    }
+    .cart-total {
+    }
+}
+/*search*/
+.search-box {
+    width: 25%;
+}
+#search {
+    padding: 7px 0;
+    .input-search {
+        background: #f6f6f6;             
+    }
+    .button-search {
+        
+    }
+}
+.input-group {
+    .form-control {
+        padding: 0 18px;
+        height: 40px;
+        margin-top: 3px;
+        @include box-shadow(none);
+    }
+    .input-group-btn {
+        button, input.btn {
+            height: 46px;
+            z-index: 3;
+            @include rounded-corners(0);
+        }
+        &:last-child > {
+                .button-search, .button-submit {
+                @include border-left-radius(2px);
+                @include rounded-corners(2px);
+            }
+        }
+        .button-search, .button-submit {
+            @include size(46px,46px); 
+            padding: 0;
+        }
+    }
+}

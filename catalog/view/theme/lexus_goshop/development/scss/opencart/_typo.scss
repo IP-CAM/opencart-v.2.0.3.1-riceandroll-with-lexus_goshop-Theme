@@ -1,0 +1,32 @@
+.iview-caption .btn-shopnow {
+	font-size: 13px;
+	border: 1px solid $theme-color;
+	background: $theme-color;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #fff;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	font-family: $font-family-third; 
+	display: inline-block;
+}
+.iview-caption .btn-shopnow:hover {
+	border: 1px solid darken($theme-color,5%);
+	background: darken($theme-color,5%);
+	color: #fff;
+	cursor: pointer;
+}
+.iview-controlNav div.iview-items ul li a.active {
+	background-color: $theme-color;
+	cursor: default;
+}
+.iview-caption.text-green-80 {
+	color: $theme-color;
+}
+.iview-caption.text-green-23 {
+	color: $theme-color;
+}
+.text-green {
+	color: $theme-color;
+	font-weight: 700;	
+}

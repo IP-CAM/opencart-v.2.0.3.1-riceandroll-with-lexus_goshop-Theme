@@ -3,20 +3,20 @@
 $_['heading_title']      = 'SagePay (US)';
 
 // Text 
-$_['text_payment']       = 'Pago'; 
-$_['text_success']       = 'Éxito: has modificado SagePay detalles de cuenta!';
+$_['text_payment']       = 'Payment'; 
+$_['text_success']       = 'Success: You have modified SagePay account details!';
 
 // Entry
-$_['entry_merchant_id']  = 'ID mercante:';
-$_['entry_merchant_key'] = 'Clave mercante:';
-$_['entry_total']        = 'Total:<br /><span class="help">El total de pedido que se debe alcanzar para que este método de pago esté activo.</span>';
-$_['entry_order_status'] = 'Estado del pedido:';
-$_['entry_geo_zone']     = 'Geo Zona:';
-$_['entry_status']       = 'Estado:';
-$_['entry_sort_order']   = 'Orden de aparición:';
+$_['entry_merchant_id']  = 'Merchant ID:';
+$_['entry_merchant_key'] = 'Merchant Key:';
+$_['entry_total']        = 'Total:<br /><span class="help">The checkout total the order must reach before this payment method becomes active.</span>';
+$_['entry_order_status'] = 'Order Status:';
+$_['entry_geo_zone']     = 'Geo Zone:';
+$_['entry_status']       = 'Status:';
+$_['entry_sort_order']   = 'Sort Order:';
 
 // Error
-$_['error_permission']   = 'Cuidado: No tienes permisos para modificar SagePay!';
-$_['error_merchant_id']  = 'ID mercante obligatorio!';
-$_['error_merchant_key'] = 'Clave mercante obligatorio!';
+$_['error_permission']   = 'Warning: You do not have permission to modify payment SagePay!';
+$_['error_merchant_id']  = 'Merchant ID Required!';
+$_['error_merchant_key'] = 'Merchant Key Required!';
 ?>

@@ -3,21 +3,21 @@
 $_['heading_title']      = 'Perpetual Payments';
 
 // Text 
-$_['text_payment']       = 'Pago';
-$_['text_success']       = 'Éxito: has modificado los detalles de cuenta Perpetual Payments!';
+$_['text_payment']       = 'Payment';
+$_['text_success']       = 'Success: You have modified Perpetual Payments account details!';
 
 // Entry
-$_['entry_auth_id']      = 'ID autorización:';
-$_['entry_auth_pass']    = 'Contraseña autorización:';
-$_['entry_test']         = 'Modo test:<span class="help"> ¿Usar este módulo en test (YES) o en entorno real (NO)?</span>';
-$_['entry_total']        = 'Total:<br /><span class="help">El total de pedido que se debe alcanzar para que este método de pago esté activo.</span>';
-$_['entry_order_status'] = 'Estado del pedido:';
-$_['entry_geo_zone']     = 'Geo Zona:';
-$_['entry_status']       = 'Estado:';
-$_['entry_sort_order']   = 'Orden de aparición:';
+$_['entry_auth_id']      = 'Authorization ID:';
+$_['entry_auth_pass']    = 'Authorization Password:';
+$_['entry_test']         = 'Test Mode:<span class="help">Use this module in Test (YES) or Production mode (NO)?</span>';
+$_['entry_total']        = 'Total:<br /><span class="help">The checkout total the order must reach before this payment method becomes active.</span>';
+$_['entry_order_status'] = 'Order Status:';
+$_['entry_geo_zone']     = 'Geo Zone:';
+$_['entry_status']       = 'Status:';
+$_['entry_sort_order']   = 'Sort Order:';
 
 // Error
-$_['error_permission']   = 'Cuidado: No tienes permisos para modificar Perpetual Payments!';
-$_['error_auth_id']      = 'ID autorización obligatorio!'; 
-$_['error_auth_pass']    = 'Contraseña autorización obligatoria!'; 
+$_['error_permission']   = 'Warning: You do not have permission to modify payment Perpetual Payments!';
+$_['error_auth_id']      = 'Authorization ID Required!'; 
+$_['error_auth_pass']    = 'Authorization Password Required!'; 
 ?>

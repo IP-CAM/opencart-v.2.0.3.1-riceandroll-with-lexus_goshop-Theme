@@ -1,7 +1,7 @@
 <?php
 // Heading
-$_['heading_title'] = 'Log Error';
+$_['heading_title'] = 'Registro de Errores';
 
 // Text
-$_['text_success']  = 'Éxito: Has limpiado el log de error satisfactoriamente!';
+$_['text_success']  = 'Correcto: Ha Borrado su Registro de Errores!';
 ?>

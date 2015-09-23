@@ -1,13 +1,11 @@
 <?php
-// Heading 
-$_['heading_title']    = 'Suscripción Boletín de noticias';
+// Heading
+$_['heading_title']    = 'Suscripcion al boletin';
 
 // Text
 $_['text_account']     = 'Cuenta';
-$_['text_newsletter']  = 'Boletín de noticias';
-$_['text_success']     = 'Éxito: Tu suscripción al boletín de noticias ha sido actualizada satisfactoriamente!';
+$_['text_newsletter']  = 'Boletin';
+$_['text_success']     = '�xito: Su suscripci�n al bolet�n se ha actualizado correctamente!';
 
 // Entry
-$_['entry_newsletter'] = 'Suscribir:';
-?>
-
+$_['entry_newsletter'] = 'Suscribirse';

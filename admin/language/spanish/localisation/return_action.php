@@ -1,19 +1,19 @@
 <?php
 // Heading
-$_['heading_title']    = 'Acción devolución';
+$_['heading_title']    = 'Acciones de Devolución';
 
 // Text
-$_['text_success']     = 'Éxito: has modificado acciones de devolución!';
+$_['text_success']     = 'Correcto: Ha modificado Acciones de Devolución!';
 
 // Column
-$_['column_name']      = 'Nombre acción devolución';
+$_['column_name']      = 'Nombre de la Acción de Devolución';
 $_['column_action']    = 'Acción';
 
 // Entry
-$_['entry_name']       = 'Nombre acción devolución:';
+$_['entry_name']       = 'Nombre de la Acción de Devolución:';
 
 // Error
-$_['error_permission'] = 'Cuidado: No tienes permisos para modificar las acciones de devolución!';
-$_['error_name']       = 'El nombre acción devolución debe tener entre 3 y 32 carácteres!';
-$_['error_return']     = 'Cuidado: Esta acción devolución no se puede borrar ya que está actualmente asignado a %s productos devueltos!';
+$_['error_permission'] = 'Advertencia: No tiene permiso para modificar Acciones de Devolución!';
+$_['error_name']       = 'El nombre de la Nombre de la Acción de Devolución debe estar entre 3 y 32 caracteres!';
+$_['error_return']     = 'Advertencia: Esta Acción de Devolución no puede ser borrada mientras esté asignada a %s productos en devolución!';
 ?>

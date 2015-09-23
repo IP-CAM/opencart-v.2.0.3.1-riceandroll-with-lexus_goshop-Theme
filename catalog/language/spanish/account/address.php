@@ -1,35 +1,37 @@
 <?php
-// Heading 
-$_['heading_title']     = 'Libreta de direcciones';
+// Heading
+$_['heading_title']        = 'Libreta de direcciones';
 
 // Text
-$_['text_account']      = 'Cuenta';
-$_['text_address_book'] = 'Entradas de la libreta de direcciones';
-$_['text_edit_address'] = 'Editar direcci贸n';
-$_['text_insert']       = 'Tu direcci贸n ha sido a帽adida satisfactoriamente';
-$_['text_update']       = 'Tu direcci贸n ha sido actualizada satisfactoriamente';
-$_['text_delete']       = 'Tu direcci贸n ha sido eliminada satisfactoriamente';
+$_['text_account']         = 'Cuenta';
+$_['text_address_book']    = 'Entradas en libreta de direcciones';
+$_['text_edit_address']    = 'Editar libreta';
+$_['text_add']             = 'Su direcci髇 se ha insertado con 閤ito';
+$_['text_edit']            = 'Su direcci髇 se ha actualizado correctamente';
+$_['text_delete']          = 'Su direcci髇 se ha eliminado correctamente';
+$_['text_empty']           = 'No tiene direcciones en su cuenta.';
 
 // Entry
-$_['entry_firstname']   = 'Nombre:';
-$_['entry_lastname']    = 'Apellido/s:';
-$_['entry_company']     = 'Compa帽铆a:';
-$_['entry_address_1']   = 'Direcci贸n 1:';
-$_['entry_address_2']   = 'Direcci贸n 2:';
-$_['entry_postcode']    = 'C贸digo postal:';
-$_['entry_city']        = 'Ciudad:';
-$_['entry_country']     = 'Pa铆s:';
-$_['entry_zone']        = 'Regi贸n / Estado:';
-$_['entry_default']     = 'Direcci贸n por defecto:';
+$_['entry_firstname']      = 'Nombre';
+$_['entry_lastname']       = 'Apellido';
+$_['entry_company']        = 'Empresa';
+$_['entry_address_1']      = 'Direccion 1';
+$_['entry_address_2']      = 'Direccion 2';
+$_['entry_postcode']       = 'Codigo Postal';
+$_['entry_city']           = 'Ciudad';
+$_['entry_country']        = 'Pais';
+$_['entry_zone']           = 'Region / Estado';
+$_['entry_default']        = 'Direccion por defecto';
 
 // Error
-$_['error_delete']      = 'Error: debes tener al menos una direcci贸n!';
-$_['error_default']     = 'Error: no puedes borrar tu direcci贸n por defecto!';
-$_['error_firstname']   = 'El nombre debe tener entre 1 y 32 car谩cteres!';
-$_['error_lastname']    = 'El apellido/s debe tener entre 1 y 32 car谩cteres!';
-$_['error_address_1']   = 'La direcci贸n debe tener entre 3 y 128 car谩cteres!';
-$_['error_postcode']    = 'El c贸digo postal debe tener entre 2 y 10 car谩cteres!';
-$_['error_city']        = 'La ciudad debe tener entre 2 y 128 car谩cteres!';
-$_['error_country']     = 'Por favor selecciona un pa铆s!';
-$_['error_zone']        = 'Por favor selecciona un regi贸n / estado!';
-?>
+$_['error_delete']         = 'Advertencia: Debe tener al menos una direcci髇!';
+$_['error_default']        = 'Advertencia: No se puede eliminar su direcci髇 por defecto!';
+$_['error_firstname']      = 'Primer nombre debe tener entre 1 y 32 caracteres!';
+$_['error_lastname']       = 'Apellidos tiene que ser entre 1 y 32 caracteres!';
+$_['error_vat']            = 'N鷐ero de IVA no es v醠ido!';
+$_['error_address_1']      = 'Direcci髇 debe tener entre 3 y 128 caracteres!';
+$_['error_postcode']       = 'C骴igo postal debe tener entre 2 y 10 caracteres!';
+$_['error_city']           = 'Ciudad debe tener entre 2 y 128 caracteres!';
+$_['error_country']        = 'Por favor, seleccione un pa韘!';
+$_['error_zone']           = 'Por favor seleccione una regi髇 / estado!';
+$_['error_custom_field']   = '%s requerido!';

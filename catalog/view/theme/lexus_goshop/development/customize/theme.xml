@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<header>
+		<title>Header Block</title>
+		<description></description>
+		<module>
+	 	 	<title>Stores</title>
+	 	 	<field>
+	 	 		<name>widget_custom</name>
+	 	 		<label>Custom</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[ 
+ 	 				<div class="media pull-left">
+						<div class="media-left">
+							<i class="fa fa-truck"></i>
+						</div>
+						<div class="media-body">
+							<div class="title">Free shipping</div>
+							<div>ON ORDER OVER $299</div>
+						</div>
+					</div>
+					<div class="media pull-left">
+						<div class="media-left">
+							<i class="fa fa-spinner"></i>
+						</div>
+						<div class="media-body">
+							<div class="title">FREE RETURN</div>
+							<div>IN 2 WORKING DAYS</div>
+						</div>
+					</div>
+					<div class="media pull-left">
+						<div class="media-left">
+							<i class="fa fa-phone"></i>
+						</div>
+						<div class="media-body">
+							<div class="title">(+0) 123-456-9</div>
+							<div>FREE SUPPORT</div>
+						</div>
+					</div>
+	 	 		]]> </default>
+	 		</field>
+	 	</module>
+	</header>
+	<footer>
+		<title>Footer Bottom Block</title>
+		<description></description>
+	 	<module>
+	 	 	<title>Paypal</title>
+	 	 	<field>
+	 	 		<name>widget_paypal</name>
+	 	 		<label>Paypal</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[ <img alt="img" src="image/catalog/paypal.png" /> ]]> </default>
+	 		</field>
+	 	 </module>
+	 	<module>
+	 	 	<title>Address</title>
+	 	 	<field>
+	 	 		<name>widget_aboutus</name>
+	 	 		<label>About Us</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default><![CDATA[
+	 	 			<div class="panel html">
+			            <div class="panel-heading"><h4 class="panel-title">About Us</h4></div>
+			            <div class="panel-body">
+				            <p>Duis autem vel eum iriure dolor intor hendrerit in vulputate velit essettes molestie consequat, vel illum dolore eu feu giat nulla facilisis at vero eros et accumsan et</p>
+							<div class="media space-tb-10">
+								<div class="media-left">		
+									<i class="fa-fw fa fa-map-marker text-primary radius-6x pull-left space-right-15"></i>
+								</div>
+								<div class="media-body">815 Lee St <br>Rome, NY 13440, USA.</div>
+							</div>
+							<div class="media space-tb-10">	
+								<div class="media-left">		
+									<i class="fa-fw fa fa-envelope text-primary radius-6x pull-left space-right-15"></i>			
+								</div>	
+								<div class="media-body">		
+									<p><span class="text-success">goshop.email@domain.com </span>/ info@domain.com</p>		
+									<p>Tel: (+01)- 000 666 999 / (+01)- 000 555 222 </p>
+									<p>Fax : (+01)- 123 4567 89</p>	
+								</div>								
+							</div>
+			            </div>
+		          	</div>
+		          	<div class="bo-social-icons bo-sicolor">
+						<button type="button" class="bo-social-twitter">
+							<i class="fa fa-twitter"></i>			
+						</button>
+						<button type="button" class="bo-social-facebook">
+							<i class="fa fa-facebook"></i>
+						</button>
+						<button type="button" class="bo-social-google">
+							<i class="fa fa-google-plus"></i> 
+						</button>
+						<button type="button" class="bo-social-pinterest">
+							<i class="fa fa-pinterest"></i> 
+						</button>
+					</div>
+	 	 		]]></default>
+	 		</field>
+	 	</module>
+	 		
+	</footer>	
+</theme>

@@ -1,31 +1,31 @@
 <?php
 // Heading
-$_['heading_title']        = 'ValoraciÃ³n de Impuestos';
+$_['heading_title']        = 'Tipos en los Impuestos';
 
 // Text
 $_['text_percent']         = 'Porcentaje';
-$_['text_amount']          = 'Monto';
-$_['text_success']         = 'Ã‰xito: Had modificado los Tipos de Impuesto!';
+$_['text_amount']          = 'Cantidad fija';
+$_['text_success']         = 'Exito: Has modificado los tipos de impuestos!';
 
 // Column
-$_['column_name']          = 'Nombre del Impuesto';
-$_['column_rate']          = 'Rango';
+$_['column_name']          = 'Nombre del impuesto';
+$_['column_rate']          = 'Tipos impositivos';
 $_['column_type']          = 'Tipo';
-$_['column_geo_zone']      = 'Zona GeogrÃ¡fica';
-$_['column_date_added']    = 'Fecha en que se agregÃ³';
-$_['column_date_modified'] = 'Fecha de ModificaciÃ³n';
-$_['column_action']        = 'AcciÃ³n';
+$_['column_geo_zone']      = 'Geo Zona';
+$_['column_date_added']    = 'Añadido en Fecha';
+$_['column_date_modified'] = 'Fecha de Modificación';
+$_['column_action']        = 'Acción';
 
 // Entry
-$_['entry_name']           = 'Nombre de Impuesto:';
-$_['entry_rate']           = 'ValoraciÃ³n de Impuesto:';
+$_['entry_name']           = 'Nombre del Impuesto:';
+$_['entry_rate']           = 'Tipo impositivo:';
 $_['entry_type']           = 'Tipo:';
 $_['entry_customer_group'] = 'Grupo de Clientes:';
-$_['entry_geo_zone']       = 'Zona GeogrÃ¡fica:';
+$_['entry_geo_zone']       = 'Geo Zona:';
 
 // Error
-$_['error_permission']     = 'Error: No tienes permisos para Modificar los Tipos de Impuestos!';
-$_['error_tax_rule']       = 'Error: Esta ValoraciÃ³n de Impuesto no puede ser borrada porque esta asignada a la Clase de Impuesto: %s !';
-$_['error_name']           = 'El nombre del Impuesto debe tener entre 3 y 32 caracteres!';
-$_['error_rate']           = 'ValoraciÃ³n de Impuesto Requerida!';
+$_['error_permission']     = 'Atención: No tienes permiso para modificar las clases de impuestos!';
+$_['error_tax_rule']       = 'Atención: Este tipo impositivo no se puede borrar pues está asigando a %s clases de impuestos!';
+$_['error_name']           = 'El nombre de la tasa debería estar entre 3 y 32 caracteres!';
+$_['error_rate']           = 'Se requiere un tipo impositivo!';
 ?>

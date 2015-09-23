@@ -1,15 +1,14 @@
 <?php
-// Heading 
-$_['heading_title']      = 'Tus transacciones';
+// Heading
+$_['heading_title']      = 'Transacciones';
 
 // Column
-$_['column_date_added']  = 'Fecha alta';
-$_['column_description'] = 'Description';
-$_['column_amount']      = 'Cantidad (%s)';
+$_['column_date_added']  = 'Fecha de alta';
+$_['column_description'] = 'Descripcion';
+$_['column_amount']      = 'Monto (%s)';
 
 // Text
 $_['text_account']       = 'Cuenta';
-$_['text_transaction']   = 'Tus transacciones';
-$_['text_balance']       = 'Tu balance actual:';
-$_['text_empty']         = 'No tienes ninguna transacción!';
-?>
+$_['text_transaction']   = 'Sus tranbsacciones';
+$_['text_balance']       = 'Su balance actual es:';
+$_['text_empty']         = 'Usted no tiene transacciones!';

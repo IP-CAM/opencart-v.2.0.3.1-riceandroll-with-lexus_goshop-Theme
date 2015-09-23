@@ -3,13 +3,13 @@
 $_['heading_title']    = 'Total';
 
 // Text
-$_['text_total']       = 'Total pedido';
-$_['text_success']     = 'Éxito: has modificado el total!';
+$_['text_total']       = 'Totales de Pedido';
+$_['text_success']     = 'Exito: tu has modificado el total de totales!';
 
 // Entry
 $_['entry_status']     = 'Estado:';
-$_['entry_sort_order'] = 'Orden de aparición:';
+$_['entry_sort_order'] = 'Orden:';
 
 // Error
-$_['error_permission'] = 'Cuidado: No tienes permisos para modificar el total!';
+$_['error_permission'] = 'Atenci�n: No tienes permito para modificar el total de totales!';
 ?>

@@ -1,43 +1,43 @@
 <?php
-// Heading  
-$_['heading_title']       = 'Cupon';
+// Heading
+$_['heading_title']       = 'Cupón';
 
 // Text
-$_['text_success']        = 'Éxito: has modificado el cupón!';
+$_['text_success']        = 'Correcto: Ha Modificado Cupones!';
 $_['text_percent']        = 'Porcentaje';
-$_['text_amount']         = 'Cantidad fija';
+$_['text_amount']         = 'Monto Fijo';
 
 // Column
-$_['column_name']         = 'Nombre cupón';
+$_['column_name']         = 'Nombre Cupón';
 $_['column_code']         = 'Código';
 $_['column_discount']     = 'Descuento';
-$_['column_date_start']   = 'Fecha inicio';
-$_['column_date_end']     = 'Fecha fin';
+$_['column_date_start']   = 'Fecha Inicial';
+$_['column_date_end']     = 'Fecha Final';
 $_['column_status']       = 'Estado';
-$_['column_order_id']     = 'ID pedido';
+$_['column_order_id']     = 'Id Orden';
 $_['column_customer']     = 'Cliente';
-$_['column_amount']       = 'Cantidad';
-$_['column_date_added']   = 'Fecha alta';
+$_['column_amount']       = 'Monto';
+$_['column_date_added']   = 'Fecha Adicionado';
 $_['column_action']       = 'Acción';
 
 // Entry
-$_['entry_name']          = 'Nombre cupón:';
-$_['entry_code']          = 'Código:<br /><span class="help">El código que el cliente introduce para conseguir el descuento</span>';
-$_['entry_type']          = 'Yipo:<br /><span class="help">Porcentaje o cantidad fija</span>';
+$_['entry_name']          = 'Nombre Cupón:';
+$_['entry_code']          = 'Código:<br /><span class="help">El Código que el Cliente introduce para obtener el Descuento</span>';
+$_['entry_type']          = 'Tipo:<br /><span class="help">Porcentaje o Monto Fijo</span>';
 $_['entry_discount']      = 'Descuento:';
-$_['entry_logged']        = 'Cliente conectado:<br /><span class="help">El cliente debe haber iniciado sesión para usar el cupón.</span>';
-$_['entry_shipping']      = 'Envío gratuito:';
-$_['entry_total']         = 'Cantidad total :<br /><span class="help">La cantidad total que debe alcanzarse antes de que el cupón sea válido.</span>';
-$_['entry_category']      = 'Categoria:<br /><span class="help">Seleccione todos los productos en la Categoría Seleccionada.</span>';
-$_['entry_product']       = 'Productos:<br /><span class="help">Selecciona productos específicos a los que se aplicará el cupón. No selecciones ninún producto para aplicarlo a la cesta entera.</span>';
-$_['entry_date_start']    = 'Fecha inicio:';
-$_['entry_date_end']      = 'Fecha fin:';
-$_['entry_uses_total']    = 'Usuarios por cupón:<br /><span class="help">El número máximo de veces que el cupón puede ser usado por cualquier cliente. Dejar en blanco para ilimitado</span>';
-$_['entry_uses_customer'] = 'Usos por cliente:<br /><span class="help">El número máximo de veces que el cupón puede ser usado por un cliente. Dejar en blanco para ilimitado</span>';
+$_['entry_logged']        = 'Cliente Conectado:<br /><span class="help">Cliente debe estar Conectado para utilizar el Cupón.</span>';
+$_['entry_shipping']      = 'Envío Gratis:';
+$_['entry_total']         = 'Monto Total:<br /><span class="help">El monto total que antes debe alcanzar para que el cupón sea válido.</span>';
+$_['entry_product']       = 'Productos:<br /><span class="help">Escoja productos específicos donde pueda aplicar el cupón. No seleccione productos para aplicar el cupón a todo el carro de compras.</span>';
+$_['entry_date_start']    = 'Fecha Inicial:';
+$_['entry_date_end']      = 'Fecha Final:';
+$_['entry_uses_total']    = 'Usos por Cupón:<br /><span class="help">El máximo número de veces que el cupón puede ser usado por cualquier ciiente. Déjelo en blanco para uso ilimitado.</span>';
+$_['entry_uses_customer'] = 'Usos por Cliente:<br /><span class="help">El máximo número de veces que el cupón puede ser usado por un solo cliente. Déjelo en blanco para uso ilimitado</span>';
 $_['entry_status']        = 'Estado:';
 
 // Error
-$_['error_permission']    = 'Cuidado: No tienes permisos para modificar los cupones!';
-$_['error_name']          = 'El nombre de cupón debe tener entre 3 y 128 carácteres!';
-$_['error_code']          = 'El código debe tener entre 3 y 10 carácteres!';
+$_['error_permission']    = 'Advertencia: No tiene permiso para modificar Cupones!';
+$_['error_name']          = 'Nombre de Cupón debe estar entre 3 y 128 caracteres!';
+$_['error_code']          = 'Código debe estar entre 3 y 10 caracteres!';
+$_['error_exists']        = 'Atencion: El codigo de cupon ya esta en uso!';
 ?>

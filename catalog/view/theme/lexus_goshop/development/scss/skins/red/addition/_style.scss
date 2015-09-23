@@ -1,0 +1,14 @@
+#logo-theme {
+    a{
+        background: url('#{$image-theme-path}logo.png') no-repeat;
+    }
+}
+#header-layout {
+	&.header-v2 {
+		#logo-theme {
+            a{
+                background: url('#{$image-theme-path}logo-header2.png') no-repeat;
+            }
+        }
+	}
+}

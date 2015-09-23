@@ -1,51 +1,52 @@
 <?php
 // Text
-$_['text_search']       = 'B煤squeda';
-$_['text_brand']        = 'Marca';
-$_['text_manufacturer'] = 'Marca:';
-$_['text_model']        = 'C贸digo producto:';
-$_['text_reward']       = 'Puntos recompensa:'; 
-$_['text_points']       = 'Precio en puntos recompensa:';
-$_['text_stock']        = 'Disponibilidad:';
-$_['text_instock']      = 'En stock';
-$_['text_price']        = 'Precio:'; 
-$_['text_tax']          = 'Impuestos:'; 
-$_['text_discount']     = '%s o m谩s %s';
-$_['text_option']       = 'Opciones disponibles';
-$_['text_qty']          = 'Cantidad:';
-$_['text_minimum']      = 'Este producto tiene una cantidad m铆nima de %s';
-$_['text_or']           = '- O -';
-$_['text_reviews']      = '%s opiniones'; 
-$_['text_write']        = 'Escribe una opini贸n';
-$_['text_no_reviews']   = 'No hay opiniones para este producto.';
-$_['text_note']         = '<span style="color: #FF0000;">Nota:</span> HTML no est谩 traducido!';
-$_['text_share']        = 'Compartir';
-$_['text_success']      = 'Gracias por tu opini贸n. Ha sido enviada al webmaster para su aprobaci贸n.';
-$_['text_upload']       = 'El archivo ha sido subido satisfactoriamente!';
-$_['text_wait']         = 'Por favor espera!';
-$_['text_tags']         = 'Etiquetas:';
-$_['text_error']        = 'Producto no encontrado!';
+$_['text_search']                             = 'Buscar';
+$_['text_brand']                              = 'Marca';
+$_['text_manufacturer']                       = 'Marca:';
+$_['text_model']                              = 'Codigo de Producto:';
+$_['text_reward']                             = 'Puntos de recompensa:';
+$_['text_points']                             = 'Precio en puntos de recompensa:';
+$_['text_stock']                              = 'Disponibles:';
+$_['text_instock']                            = 'Disponible';
+$_['text_tax']                                = 'Sin impuesto:';
+$_['text_discount']                           = ' o m醩 ';
+$_['text_option']                             = 'Opciones disponibles';
+$_['text_minimum']                            = 'Este producto tiene una cantidad m韓ima de %s';
+$_['text_reviews']                            = '%s opiniones';
+$_['text_write']                              = 'escribe una opinion';
+$_['text_login']                              = 'Por favor <a href="%s">Accede</a> o <a href="%s">Registrate</a> para visualizar';
+$_['text_no_reviews']                         = 'No hay opiniones sobre este producto.';
+$_['text_note']                               = '<span class="text-danger">Nota:</span> HTML no traducido!';
+$_['text_success']                            = 'Gracias por su opinion. Fue enviada al administrador para su aprobaci髇.';
+$_['text_related']                            = 'Productos Relacionados';
+$_['text_tags']                               = 'Etiquetas:';
+$_['text_error']                              = 'Producto no encontrado!';
+$_['text_payment_recurring']                    = 'Perfiles de Pago';
+$_['text_trial_description']                  = '%s cada %d %s(s) para %d pago(s)';
+$_['text_payment_description']                = '%s cada %d %s(s) para %d pago(s)';
+$_['text_payment_until_canceled_description'] = '%s cada %d %s(s) hasta que se cancele';
+$_['text_day']                                = 'dia';
+$_['text_week']                               = 'semana';
+$_['text_semi_month']                         = 'medio mes';
+$_['text_month']                              = 'mes';
+$_['text_year']                               = 'a駉';
 
 // Entry
-$_['entry_name']        = 'Tu nombre:';
-$_['entry_review']      = 'Tu opini贸n:';
-$_['entry_rating']      = 'Puntuaci贸n:';
-$_['entry_good']        = 'Bueno';
-$_['entry_bad']         = 'Malo';
-$_['entry_captcha']     = 'Introduce el c贸digo en la casilla inferior:';
+$_['entry_qty']                               = 'Cantidad';
+$_['entry_name']                              = 'Su nombre';
+$_['entry_review']                            = 'Su Opinion';
+$_['entry_rating']                            = 'Clasificacion';
+$_['entry_good']                              = 'Bueno';
+$_['entry_bad']                               = 'Malo';
+$_['entry_captcha']                           = 'Ingrese el codigo mostrado en la caja';
 
 // Tabs
-$_['tab_description']   = 'Descripci贸n';
-$_['tab_attribute']     = 'Especificaciones';
-$_['tab_review']        = 'Opiniones (%s)';
-$_['tab_related']       = 'Productos relacionados'; 
+$_['tab_description']                         = 'Descripcion';
+$_['tab_attribute']                           = 'Especificaciones';
+$_['tab_review']                              = 'Opiniones (%s)';
 
 // Error
-$_['error_name']        = 'Error: El t铆tulo de la opini贸n debe tener entre 3 y 25 car谩cteres!';
-$_['error_text']        = 'Error: La opini贸n debe tener entre 25 y 1000 car谩cteres!';
-$_['error_rating']      = 'Error: Por favor selecciona una puntuaci贸n!';
-$_['error_captcha']     = 'Error: El c贸digo de verificaci贸n no coincide con la imagen!';
-$_['error_upload']      = 'Subida de archivo obligatoria!';
-$_['error_filename']    = 'El nombre de archivo debe tener entre 3 y 128 car谩cteres!';
-$_['error_filetype']    = 'Tipo de archivo invalido!';
-?>
+$_['error_name']                              = 'Advertencia: El nombre debe tener entre 3 y 25 caracteres!';
+$_['error_text']                              = 'Advertencia: La opinion debe tener entre 3 y 1000 caracteres!';
+$_['error_rating']                            = 'Advertencia: Por favor, seleccione la clasificacion a otorgar!';
+$_['error_captcha']                           = 'Advertencia: C骴igo de verificaci髇 no coincide con la imagen!';

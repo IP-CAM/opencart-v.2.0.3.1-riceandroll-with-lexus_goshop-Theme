@@ -1,46 +1,46 @@
 <?php
 // Heading
-$_['heading_title']    = 'Gestor de imágenes';
- 
+$_['heading_title']    = 'Gestor de Imágenes';
+
 // Text
-$_['text_uploaded']    = 'Éxito: Tu archivo ha sido subido!';
-$_['text_file_delete'] = 'El archivo ha sido borrado!';
-$_['text_create']      = 'Éxito: Capreta creada!';
-$_['text_delete']      = 'Éxito: Tu archivo o directorio ha sido borrado!';
-$_['text_move']        = 'Éxito: Tu archivo o directorio ha sido movido!';
-$_['text_copy']        = 'Éxito: Tu archivo o directorio ha sido copiado!';
-$_['text_rename']      = 'Éxito: Tu archivo o directorio ha sido renombrado!';
+$_['text_uploaded']    = 'Correcto: Su Archivo ha sido Subido!';
+$_['text_file_delete'] = 'Archivo ha sido Borrado!';
+$_['text_create']      = 'Correcto: Directorio Creado!';
+$_['text_delete']      = 'Correcto: Su Arhivo o Directorio ha sido Borrado!';
+$_['text_move']        = 'Correcto: Su Arhivo o Directorio ha sido Movido!';
+$_['text_copy']        = 'Correcto: Su Arhivo o Directorio ha sido Copiado!';
+$_['text_rename']      = 'Correcto: Su Arhivo o Directorio ha sido Renombrado!';
 
 // Entry
-$_['entry_folder']     = 'Nueva carpeta:';
+$_['entry_folder']     = 'Nuevo Directorio:';
 $_['entry_move']       = 'Mover:';
 $_['entry_copy']       = 'Nombre:';
 $_['entry_rename']     = 'Nombre:';
 
 // Error
-$_['error_select']     = 'Cuidado: Por favor selecciona una carpeta o archivo!';
-$_['error_file']       = 'Cuidado: Por favor selecciona un archivo!';
-$_['error_directory']  = 'Cuidado: Por favor selecciona una carpeta!';
-$_['error_default']    = 'Cuidado: No puedes modificar la carpeta por defecto!';
-$_['error_delete']     = 'Cuidado: No puedes borrar esta carpeta!';
-$_['error_filename']   = 'Cuidado: El nombre de archivo debe estar entre 3 y 255!';
-$_['error_missing']    = 'Cuidado: Archivo o carpeta no existente!';
-$_['error_exists']     = 'Cuidado: Un archivo o carpeta con el mismo nombre ya existe!';
-$_['error_name']       = 'Cuidado: Por favor introduce un nombre nuevo!';
-$_['error_move']       = 'Cuidado: No se puede mover a una carpeta que no existe!';
-$_['error_copy']       = 'Cuidado: No se puede copiar el archivo o carpeta!';
-$_['error_rename']     = 'Cuidado: No se puede renombrar esta carpeta!';
-$_['error_file_type']  = 'Cuidado: Tipo de archivo incorrecto!';
-$_['error_file_size']  = 'Cuidado: Archivo demasiado grande, por favor mantener por debajo de 300kb y que no supere los 1000px de altura o anchura!';
-$_['error_uploaded']   = 'Cuidado: El archivo no pudo ser subido debido a una causa desconocida!';
-$_['error_permission'] = 'Cuidado: Permiso denegado!';
+$_['error_select']     = 'Advertencia: Por favor, seleccione un fichero o directorio!';
+$_['error_file']       = 'Advertencia: Por favor, seleccione un fichero!';
+$_['error_directory']  = 'Advertencia: Por favor, seleccione un directorio!';
+$_['error_default']    = 'Advertencia: No puede cambiar su directorio por defecto!';
+$_['error_delete']     = 'Advertencia: No puede borrar este directorio!';
+$_['error_filename']   = 'Advertencia: El nombre del fichero debe estar entre 3 y 255 caracteres!';
+$_['error_missing']    = 'Advertencia: El fichero o directorio no existe!';
+$_['error_exists']     = 'Advertencia: Ya existe un fichero o directorio con el mismo nombre!';
+$_['error_name']       = 'Advertencia: Por favor, introduzca un nueevo nombre!';
+$_['error_move']       = 'Advertencia: No se puede mover al directorio!';
+$_['error_copy']       = 'Advertencia: No se puede copiar este fichero o directorio!';
+$_['error_rename']     = 'Advertencia: No se puede renombrar este directorio!';
+$_['error_file_type']  = 'Advertencia: Tipo de fichero incorrecto!';
+$_['error_file_size']  = 'Advertencia: Fichero demasiado grande. No debe superar los 300kb y su tamaño no debe ser superior a 1000px de alto o ancho!';
+$_['error_uploaded']   = 'Advertencia: El fichero no se pudo subir por una razon desconocida!';
+$_['error_permission'] = 'Advertencia: Permiso denegado!';
 
 // Button
-$_['button_folder']    = 'Nueva carpeta';
-$_['button_delete']    = 'Eliminar';
+$_['button_folder']    = 'Nuevo Directorio';
+$_['button_delete']    = 'Borrar';
 $_['button_move']      = 'Mover';
 $_['button_copy']      = 'Copiar';
 $_['button_rename']    = 'Renombrar';
 $_['button_upload']    = 'Subir';
-$_['button_refresh']   = 'Actualizar';
+$_['button_refresh']   = 'Refrescar';
 ?>

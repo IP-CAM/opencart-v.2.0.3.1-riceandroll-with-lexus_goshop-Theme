@@ -1,20 +1,20 @@
 <?php
 // header
-$_['heading_title']  = 'Administrador';
+$_['heading_title']  = 'Administración';
 
 // Text
-$_['text_heading']   = 'Administrador';
-$_['text_login']     = 'Por favor introduce los detalles de tu cuenta.';
-$_['text_forgotten'] = 'Contraseña olvidada';
+$_['text_heading']   = 'Administración';
+$_['text_login']     = 'Detalles de su Conexión';
+$_['text_forgotten'] = 'Clave Olvidada';
 
 // Entry
-$_['entry_username'] = 'Usuario:';
-$_['entry_password'] = 'Contraseña:';
+$_['entry_username'] = 'Nombre Usuario:';
+$_['entry_password'] = 'Clave:';
 
 // Button
-$_['button_login']   = 'Inicio sesión';
+$_['button_login']   = 'Conectar';
 
 // Error
-$_['error_login']    = 'No se ha encontrado el usuario y/o contraseña.';
-$_['error_token']    = 'Token de sesión inválido. Por favor inicia sesión de nuevo.';
+$_['error_login']    = 'No coincide nombre de usuario y/o contraseña.';
+$_['error_token']    = 'Sesión inválida. Por favor, intente de nuevo.';
 ?>

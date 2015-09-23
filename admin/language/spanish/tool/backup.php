@@ -1,16 +1,17 @@
 <?php
 // Heading
-$_['heading_title']    = 'Copia de seguridad / Restaurar';
+$_['heading_title']    = 'Respaldar / Restaurar';
 
 // Text
-$_['text_backup']      = 'Descargar copia de seguridad';
-$_['text_success']     = 'Éxito: Has importado tu base de datos satisfactoriamente!';
+$_['text_backup']      = 'Descargar Respaldo';
+$_['text_success']     = 'Correcto: Ha Importado su Base de Datos!';
 
 // Entry
-$_['entry_restore']    = 'Restaurar copia de seguridad:';
-$_['entry_backup']     = 'Copia de seguridad:';
+$_['entry_restore']    = 'Restaurar Respaldo:';
+$_['entry_backup']     = 'Respaldo:';
 
 // Error
-$_['error_permission'] = 'Cuidado: No tienes permisos para modificar copias de seguridad!';
-$_['error_empty']      = 'Cuidado: El archivo que subiste está vacío!';
+$_['error_permission'] = 'Advertencia: No tiene Permiso para Modificar Respaldos!';
+$_['error_backup']     = 'Advertencia: Deberías seleccionar al menos una tabla para backup!';
+$_['error_empty']      = 'Advertencia: El archivo que ha subido esta vacío!';
 ?>

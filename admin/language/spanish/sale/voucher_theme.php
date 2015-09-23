@@ -1,25 +1,25 @@
 <?php
 // Heading
-$_['heading_title']      = 'Tema vales';
+$_['heading_title']      = 'Temas de Certificado de Regalo';
 
 // Text
-$_['text_success']       = 'Éxito: has modificado temas de vale!';
-$_['text_image_manager'] = 'Gestor de imágenes';
-$_['text_browse']        = 'Examinar Archivos';
-$_['text_clear']         = 'Limpiar Imagen';
+$_['text_success']       = 'Correcto: Ha modificado Temas de Certificado de Regalo!';
+$_['text_image_manager'] = 'Gestor de Imágenes';
+$_['text_browse']        = 'Seleccionar';
+$_['text_clear']         = 'Quitar imagen';
 
 // Column
-$_['column_name']        = 'Nombre de temas de vale';
+$_['column_name']        = 'Noombre del Tema';
 $_['column_action']      = 'Acción';
 
 // Entry
-$_['entry_name']         = 'Nombre de temas de vale:';
-$_['entry_description']  = 'Descripción de temas de vale:';
+$_['entry_name']         = 'Nombre del Tema:';
+$_['entry_description']  = 'Descripción del Tema:';
 $_['entry_image']        = 'Imagen:';
 
 // Error
-$_['error_permission']  = 'Cuidado: No tienes permisos para modificar temas de vale!';
-$_['error_name']        = 'El nombre de temas de vale debe tener entre 3 y 32 carácteres!';
-$_['error_image']       = 'Imagen obligatoria!';
-$_['error_voucher']     = 'Cuidado: Este tema de vale no se puede borrar ya que está actualmente asignado a %s vales!';
+$_['error_permission']  = 'Advertencia: No tiene permiso para modificar Temas de Certificado de Regalo!';
+$_['error_name']        = 'Nombre del Tema debe estar entre 3 y 32 caracteres!';
+$_['error_image']       = 'Imagen requerida!';
+$_['error_voucher']     = 'Advertencia: Este Tema de Certificado no puede ser borrado porque está asignado a los %s Certificados!';
 ?>

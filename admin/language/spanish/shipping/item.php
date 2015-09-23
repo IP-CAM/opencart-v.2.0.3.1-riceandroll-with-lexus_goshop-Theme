@@ -1,18 +1,18 @@
-<?php 
+<?php
 // Heading
-$_['heading_title']     = 'Por item';
+$_['heading_title']    = 'Envío por Artículo';
 
 // Text
 $_['text_shipping']    = 'Envío';
-$_['text_success']     = 'Éxito: has modificado la tarifa de envío por items!';
+$_['text_success']     = 'Correcto: Ha Modificado Envío por Artículo!';
 
 // Entry
-$_['entry_cost']       = 'Coste:';
-$_['entry_tax']        = 'Tipo de impuesto:';
-$_['entry_geo_zone']   = 'Geo Zona:';
+$_['entry_cost']       = 'Costo:';
+$_['entry_tax']        = 'Impuesto:';
+$_['entry_geo_zone']   = 'Zona Geográfica:';
 $_['entry_status']     = 'Estado:';
-$_['entry_sort_order'] = 'Orden de aparición:';
+$_['entry_sort_order'] = 'Orden:';
 
 // Error
-$_['error_permission'] = 'Cuidado: No tienes permisos para modificar tarifas de envío por items!';
+$_['error_permission'] = 'Advertencia: No tiene Permiso para Modificar Envío por Artículo!';
 ?>

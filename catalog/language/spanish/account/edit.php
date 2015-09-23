@@ -1,24 +1,24 @@
 <?php
-// Heading 
-$_['heading_title']     = 'Mi información de cuenta ';
+// Heading
+$_['heading_title']      = 'Informacion de cuenta';
 
 // Text
-$_['text_account']      = 'Cuenta';
-$_['text_edit']         = 'Editar información';
-$_['text_your_details'] = 'Tus detalles personales';
-$_['text_success']      = 'Éxito: Tu cuenta ha sido satisfactoriamente actualizada.';
+$_['text_account']       = 'Cuenta';
+$_['text_edit']          = 'Editar informacion';
+$_['text_your_details']  = 'Detalles personales';
+$_['text_success']       = '�xito: Su cuenta ha sido actualizado correctamente.';
 
 // Entry
-$_['entry_firstname']  = 'Nombre:';
-$_['entry_lastname']   = 'Apellido/s:';
-$_['entry_email']      = 'E-mail:';
-$_['entry_telephone']  = 'Teléfono:';
-$_['entry_fax']        = 'Fax:';
+$_['entry_firstname']    = 'Nombre';
+$_['entry_lastname']     = 'Apellido';
+$_['entry_email']        = 'E-Mail';
+$_['entry_telephone']    = 'Telefono';
+$_['entry_fax']          = 'Fax';
 
 // Error
-$_['error_exists']     = 'Error: La dirección de e-mail ya está registrada!';
-$_['error_firstname']  = 'El nombre debe tener entre 1 y 32 carácteres!';
-$_['error_lastname']   = 'El apellido/s debe tener entre 1 y 32 carácteres!';
-$_['error_email']      = 'La dirección de e-mail no parece ser válida!';
-$_['error_telephone']  = 'El teléfono debe tener entre 3 y 32 carácteres!';
-?>
+$_['error_exists']       = 'Advertencia: Direcci�n E-Mail ya est� registrado!';
+$_['error_firstname']    = 'Primer nombre debe tener entre 1 y 32 caracteres!';
+$_['error_lastname']     = 'Apellidos tiene que ser entre 1 y 32 caracteres!';
+$_['error_email']        = 'Direcci�n E-Mail no parece ser v�lido!';
+$_['error_telephone']    = 'Tel�fono debe tener entre 3 y 32 caracteres!';
+$_['error_custom_field'] = '%s requerido!';

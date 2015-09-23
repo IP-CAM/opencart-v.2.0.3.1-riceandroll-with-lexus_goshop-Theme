@@ -3,34 +3,35 @@
 $_['heading_title']          = 'Categoría';
 
 // Text
-$_['text_success']           = 'Éxito: has modificado las categorías!';
-$_['text_default']           = 'Por defecto';
-$_['text_image_manager']     = 'Gestor de imágenes';
-$_['text_browse']            = 'Examinar Archivos';
-$_['text_clear']             = 'Eliminar Imágen';
+$_['text_success']           = 'Correcto: Ha Modificado Categorías!';
+$_['text_default']           = 'Predeterminado';
+$_['text_browse']            = 'Seleccionar';
+$_['text_clear']             = 'Quitar imagen';
+$_['text_image_manager']     = 'Gestor de Imágenes';
 
 // Column
-$_['column_name']            = 'Nombre categoría';
-$_['column_sort_order']      = 'Orden aparición';
+$_['column_name']            = 'Nombre de Categoría';
+$_['column_sort_order']      = 'Orden';
 $_['column_action']          = 'Acción';
 
 // Entry
-$_['entry_name']             = 'Nombre categoría:';
-$_['entry_meta_keyword'] 	 = 'Etiquetas meta palabras clave:';
-$_['entry_meta_description'] = 'Etiquetas meta descripción:';
+$_['entry_name']             = 'Nombre de Categoría:';
+$_['entry_meta_keyword'] 	 = 'Etiquetas Meta:';
+$_['entry_meta_description'] = 'Descripción Etiquetas Meta:';
 $_['entry_description']      = 'Descripción:';
-$_['entry_parent']           = 'Categoría superior:';
+$_['entry_parent']           = 'Categoría Superior:';
+$_['entry_filter']           = 'Filtros:<br /><span class="help">(Autocomplete)</span>';
 $_['entry_store']            = 'Tiendas:';
-$_['entry_keyword']          = 'Palabra clave SEO:<br/><span class="help">Esta debe ser globalmente única.</span>';
+$_['entry_keyword']          = 'Palabras claves SEO:<br/><span class="help">Estas deben ser Globalmente Únicas.</span>';
 $_['entry_image']            = 'Imagen:';
-$_['entry_top']              = 'Arriba:<br/><span class="help">Mostrar en la barra del menú superior. Solo funciona con las categorías superiores.</span>';
-$_['entry_column']           = 'Columnas:<br/><span class="help">Número de columnas a usar para las 3 categorías inferiores. Solo funciona con las categorías superiores.</span>';
-$_['entry_sort_order']       = 'Orden aparición:';
+$_['entry_top']              = 'Superior:<br/><span class="help">Muestra en la barra del menú superior. Solo funciona para las categorías superiores.</span>';
+$_['entry_column']           = 'Columnas:<br/><span class="help">Número de columnas para usar en las 3 categorias de abajo. Solo funciona para las categorías superiores.</span>';
+$_['entry_sort_order']       = 'Orden:';
 $_['entry_status']           = 'Estado:';
-$_['entry_layout']           = 'Sobreescribir diseño:';
+$_['entry_layout']           = 'Ubicación:';
 
-// Error 
-$_['error_warning']          = 'Cuidado: Por favor comprueba que el formulario esté libre de errores!';
-$_['error_permission']       = 'Cuidado: No tienes permiso para modificar las categorías!';
-$_['error_name']             = 'El nombre de la categoría debe tener entre 2 y 32 carácteres!';
+// Error
+$_['error_warning']          = 'Advertencia: Por favor revise cuidadosamente el formulario por errores!';
+$_['error_permission']       = 'Advertencia: No tiene permiso para modificar categorías!';
+$_['error_name']             = 'Nombre de Categoría debe estar entre 2 y 32 caracteres!';
 ?>

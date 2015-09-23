@@ -1,3 +1,2 @@
 <?php
-$_['text_handling'] = 'Tarifa de manipulación:';
-?>
+$_['text_handling'] = 'Cuota Handling';

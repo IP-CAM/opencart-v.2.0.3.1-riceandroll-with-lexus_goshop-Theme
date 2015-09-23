@@ -1,7 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'No se encontró la página solicitada!';
+$_['heading_title'] = 'La p�gina solicitada no se encuentra!';
 
 // Text
-$_['text_error']    = 'No se encontró la página solicitada.';
-?>
+$_['text_error']    = 'La p�gina solicitada no se encuentra.';

@@ -1,20 +1,21 @@
 <?php
-// Heading 
-$_['heading_title']      = 'Mi cuenta';
+// Heading
+$_['heading_title']      = 'Mi Cuenta';
 
 // Text
 $_['text_account']       = 'Cuenta';
 $_['text_my_account']    = 'Mi cuenta';
-$_['text_my_orders']     = 'Mis pedidos';
-$_['text_my_newsletter'] = 'Boletín de noticias';
-$_['text_edit']          = 'Editar tu información de cuenta';
-$_['text_password']      = 'Cambia tu contraseña';
-$_['text_address']       = 'Modificar tus entradas de libro de direcciones';
-$_['text_wishlist']      = 'Modificar tu lista de deseos';
-$_['text_order']         = 'Ver tu historial de pedidos';
+$_['text_my_orders']     = 'Mis ordenes';
+$_['text_my_newsletter'] = 'Voletin';
+$_['text_edit']          = 'Editar informacion de la cuenta';
+$_['text_password']      = 'Cambiar password';
+$_['text_address']       = 'Modificar las entradas de la libreta de direcciones';
+$_['text_wishlist']      = 'Modificar su lista de deseos';
+$_['text_order']         = 'Ver historial de ordenes';
 $_['text_download']      = 'Descargas';
-$_['text_reward']        = 'Tus puntos recompensa'; 
-$_['text_return']        = 'Ver tus peticiones de devolución'; 
-$_['text_transaction']   = 'Tus transacciones'; 
-$_['text_newsletter']    = 'Suscribir / Darse de baja del boletín de noticias';
-?>
+$_['text_reward']        = 'Puntos de regalo';
+$_['text_return']        = 'Solicitudes de devolucion';
+$_['text_transaction']   = 'Sus transacciones';
+$_['text_newsletter']    = 'Suscribirse / darse de baja al bolet�n';
+$_['text_recurring']     = 'Pagos recurrentes';
+$_['text_transactions']  = 'Transacciones';

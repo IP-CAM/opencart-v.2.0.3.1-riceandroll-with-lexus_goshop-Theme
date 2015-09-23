@@ -1,21 +1,22 @@
 <?php
-// Heading 
-$_['heading_title']                 = 'Programa Afiliados';
+// Heading
+$_['heading_title']                 = 'Programa de Afiliado';
 
 // Text
 $_['text_account']                  = 'Cuenta';
-$_['text_login']                    = 'Inicio sesiÃ³n';
-$_['text_description']              = '<p>El programa de afiliados %s es gratuito y permite a los miembros ganar beneficios situando un enlace o enlances en su web que anuncien %s o productos especÃ­ficos. Cualquier venta hecha por clientes que han hecho click en estos enlaces generarÃ¡ comisiones de afiliados. La comisiÃ³n estÃ¡ndar actual de afiliados es %s.</p><p>Para mÃ¡s informaciÃ³n, visita nuestra pÃ¡gina FAQ o revisa los tÃ©rminos &amp; condiciones de la cuenta de afiliados.</p>';
-$_['text_new_affiliate']            = 'Nuevo afiliado';
-$_['text_register_account']         = '<p>No soy un afiliado actualmente.</p><p>Haz click abajo para crear una cuenta de afiliado. Por favor ten en cuenta que esta cuenta no estÃ¡ conectada de ninguna forma con tu cuenta de cliente.</p>';
-$_['text_returning_affiliate']      = 'Afiliados';
-$_['text_i_am_returning_affiliate'] = 'Ya soy un afiliado.';
-$_['text_forgotten']                = 'ContraseÃ±a olvidada';
+$_['text_login']                    = 'Salir';
+$_['text_description']              = '<p>%s programa de afiliados es gratuito y permite a los miembros a obtener ingresos mediante la colocación de un enlace o enlaces en su sitio web que anuncia %s o productos específicos en ella. Las ventas realizadas a los clientes que han hecho clic en los enlaces ganará la comisión de afiliación. La tasa de comisión estándar es actualmente %s.</p><p>Para obtener más información, visite nuestra página de preguntas frecuentes o consulte nuestros términos y condiciones del programa de afiliados</p>';
+$_['text_new_affiliate']            = 'Nuevo Afiliado';
+$_['text_register_account']         = '<p>Yo no soy actualmente un afiliado.</p><p>Haga clic en Continuar para crear una nueva cuenta de afiliado. Tenga en cuenta que esto no está conectada de ninguna manera a su cuenta de cliente.</p>';
+$_['text_returning_affiliate']      = 'Ingreso de Afiliado';
+$_['text_i_am_returning_affiliate'] = 'Yo soy un afiliado de regreso.';
+$_['text_forgotten']                = 'Olvido su password?';
 
 // Entry
-$_['entry_email']                   = 'E-Mail afiliados:';
-$_['entry_password']                = 'ContraseÃ±a:';
+$_['entry_email']                   = 'E-mail de afiliado';
+$_['entry_password']                = 'Password';
 
 // Error
-$_['error_login']                   = 'Error: No se encuentra la direcciÃ³n de E-Mail y/o contraseÃ±a.';
-?>
+$_['error_login']                   = 'Advertencia: No hay resultados para la dirección de correo electrónico y / o contraseña.';
+$_['error_attempts']                = 'Advertencia: Tu cuenta ha superado el número permitido de intentos de conexión. Inténtalo de nuevo en 1 hora.';
+$_['error_approved']                = 'Atención: Su cuenta requiere aprobación antes de que pueda iniciar sesión.';

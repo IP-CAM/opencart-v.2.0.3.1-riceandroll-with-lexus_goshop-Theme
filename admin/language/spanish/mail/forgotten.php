@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_subject']  = '%s - Reseteo de contraseña';
-$_['text_greeting'] = 'Una nueva contraseña fue pedida por el administrador %s.';
-$_['text_change']   = 'Para resetear tu contraseña haz click en el enlace inferior:';
-$_['text_ip']       = 'La Ip usada para la petición fue:';
+$_['text_subject']  = '%s - ha solicitado Resetear su Clave';
+$_['text_greeting'] = 'Una Nueva Clave fué requerida por la Administración de %s.';
+$_['text_change']   = 'Para Resetear su Clave haga Click en el Enlace de abajo:';
+$_['text_ip']       = 'La IP usada para hacer esta solicitud fué: %s';
 ?>

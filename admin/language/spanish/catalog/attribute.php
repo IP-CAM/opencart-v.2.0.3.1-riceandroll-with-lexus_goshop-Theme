@@ -3,21 +3,21 @@
 $_['heading_title']          = 'Atributos';
 
 // Text
-$_['text_success']           = 'Éxito: has modificado atributos!';
+$_['text_success']           = 'Correcto: Ha modificado los atributos!';
 
 // Column
-$_['column_name']            = 'Nombre atributo';
-$_['column_attribute_group'] = 'Grupo atributos';
-$_['column_sort_order']      = 'Orden de aparición';
+$_['column_name']            = 'Nombre de Atributo';
+$_['column_attribute_group'] = 'Grupo de Atributos';
+$_['column_sort_order']      = 'Orden';
 $_['column_action']          = 'Acción';
 
 // Entry
-$_['entry_name']            = 'Nombre atributo:';
-$_['entry_attribute_group'] = 'Grupo atributos:';
-$_['entry_sort_order']      = 'Orden de aparición:';
+$_['entry_name']            = 'Nombre de Atributo:';
+$_['entry_attribute_group'] = 'Grupo de Atributos:';
+$_['entry_sort_order']      = 'Orden:';
 
 // Error
-$_['error_permission']      = 'Cuidado: No tienes permisos para modificar atributos!';
-$_['error_name']            = 'El nombre de atributo debe tener entre 3 y 64 carácteres!';
-$_['error_product']         = 'Cuidado: Este atributo no se puede borrar ya que está actualmente asignado a %s productos!';
+$_['error_permission']      = 'Advertencia: No tiene permiso para modificar atributos!';
+$_['error_name']            = 'Nombre del atributo debe estar entre 3 y 64 caracteres!';
+$_['error_product']         = 'Advertencia: Este atributo no puede ser borrado mientras esté asignado a %s productos!';
 ?>

@@ -1,20 +1,20 @@
 <?php
 // Heading
-$_['heading_title']    = 'Estado devolución';
+$_['heading_title']    = 'Estado de DevoluciÃ³n';
 
 // Text
-$_['text_success']     = 'Éxito: has modificado estados de devolución!';
+$_['text_success']     = 'Correcto: Ha modificado Estado de DevoluciÃ³n!';
 
 // Column
-$_['column_name']      = 'Nombre estado devolución';
-$_['column_action']    = 'Acción';
+$_['column_name']      = 'Nombre del Estado de DevoluciÃ³n';
+$_['column_action']    = 'AcciÃ³n';
 
 // Entry
-$_['entry_name']       = 'Nombre estado devolución';
+$_['entry_name']       = 'Nombre del Estado de DevoluciÃ³n:';
 
 // Error
-$_['error_permission'] = 'Cuidado: No tienes permisos para modificar estados de devolución!';
-$_['error_name']       = 'El nombre estado devolución debe tener entre 3 y 32 carácteres!';
-$_['error_default']    = 'Cuidado: Este estado de devolución no se puede borrar ya que esta actualmentee asignado como el estado de devolución por defecto!';
-$_['error_return']     = 'Cuidado: Este estado de devolución no se puede borrar ya que está actualmente asignado a %s devoluciones!';
+$_['error_permission'] = 'Advertencia: No tiene permiso para modificar Estado de DevoluciÃ³n!';
+$_['error_name']       = 'Nombre del Estado de DevoluciÃ³n debe estar entre 3 y 32 caracteres!';
+$_['error_default']    = 'Advertencia: Este Estado de DevoluciÃ³n no puede ser borrado porque actualmente estÃ¡ asignado como Predeterminado!';
+$_['error_return']     = 'Advertencia: Este Estado de DevoluciÃ³n no puede ser borrado porque actualmente estÃ¡ asignado a %s Devoluciones!';
 ?>

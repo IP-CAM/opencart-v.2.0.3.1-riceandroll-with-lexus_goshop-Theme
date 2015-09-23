@@ -1,19 +1,19 @@
 <?php
 // Heading
-$_['heading_title']    = 'Estado stock';
+$_['heading_title']    = 'Estado del Inventario';
 
 // Text
-$_['text_success']     = 'Éxito: has modificado los estados de stock!';
+$_['text_success']     = 'Correcto: Ha modificado el Estado del Inventario!';
 
 // Column
-$_['column_name']      = 'Nombre estado stock';
+$_['column_name']      = 'Nombre del Estado del Inventario';
 $_['column_action']    = 'Acción';
 
 // Entry
-$_['entry_name']       = 'Nombre estado stock:';
+$_['entry_name']       = 'Nombre del Estado del Inventario:';
 
 // Error
-$_['error_permission'] = 'Cuidado: No tienes permisos para modificarlos estados de stock!';
-$_['error_name']       = 'El nombre estado stock debe tener entre 3 y 32 carácteres!';
-$_['error_product']    = 'Cuidado: Este estado de stock no se puede borrar ya que está actualmente asignado a %s productos!';
+$_['error_permission'] = 'Advertencia: No tiene Permiso para modificar el Estado del Inventario!';
+$_['error_name']       = 'Nombre del Estado del Inventario estar entre 3 y 32 caracteres!';
+$_['error_product']    = 'Advertencia: Este Estado del Inventario no puede ser Borrado porque actualmente está asignado a %s Productos!';
 ?>
