@@ -7,7 +7,9 @@
   }
 ?>
 
-<?php  require( ThemeControlHelper::getLayoutPath( 'common/addon/topbar.tpl' ) );?>
+<?php  
+//require( ThemeControlHelper::getLayoutPath( 'common/addon/topbar.tpl' ) );
+?>
 
 <header id="header-layout" class="header-v2">
   <div class="container"><div class="inside clearfix">
