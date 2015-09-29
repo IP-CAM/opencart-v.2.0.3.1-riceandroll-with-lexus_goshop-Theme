@@ -34,7 +34,6 @@
         <div class="custom-html hidden-xs pull-left">
           <?php
                 if($content=$helper->getLangConfig('widget_custom')){
-                  echo "<!-- item #1 -->"
                   echo $content;
                 }
               ?>
