@@ -32,7 +32,7 @@
 <?php } ?>
  
 <footer id="footer" class="nostylingboxs">
- 
+ <!-- FOOTER TOP-->
   <?php
     $blockid = 'footer_top';
     $blockcls = '';
@@ -44,7 +44,7 @@
       }
   ?>
 
-
+<!-- FOOTER CENTER-->
   <?php
 
     $blockid = 'footer_center';
@@ -57,7 +57,7 @@
           require( ThemeControlHelper::getLayoutPath( 'common/footer/footer_center.tpl' ) );
       }
   ?>
-
+<!-- FOOTER BOOTOM-->
   <?php
     $blockid = 'footer_bottom';
     $blockcls = '';
