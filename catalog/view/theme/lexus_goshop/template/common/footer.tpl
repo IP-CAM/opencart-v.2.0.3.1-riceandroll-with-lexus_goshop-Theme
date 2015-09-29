@@ -84,12 +84,6 @@
         <?php } ?>
         
       </div>  
-
-      <?php if( $content=$helper->getLangConfig('widget_paypal') ) {?>
-        <div class="paypal pull-right">
-          <?php echo $content; ?>
-        </div>
-      <?php } ?>
       </div>
   </div>
 </div>
