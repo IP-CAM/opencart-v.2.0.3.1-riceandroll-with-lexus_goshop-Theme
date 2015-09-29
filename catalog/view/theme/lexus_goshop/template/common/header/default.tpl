@@ -16,6 +16,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-2 logo-theme">
         <!-- logo -->
+        <center>
         <?php if( $logoType=='logo-theme'){ ?>
         <div id="logo-theme" class="logo">
           <a href="<?php echo $home; ?>">
@@ -29,6 +30,7 @@
           </a>
         </div>
         <?php } ?>
+        </center>
       </div>
       <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12">
         <div class="custom-html hidden-xs pull-left">
