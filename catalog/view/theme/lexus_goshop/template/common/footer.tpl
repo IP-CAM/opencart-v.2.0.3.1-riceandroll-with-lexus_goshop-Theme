@@ -34,6 +34,7 @@
 <footer id="footer" class="nostylingboxs">
  <!-- FOOTER TOP-->
   <?php
+  /*
     $blockid = 'footer_top';
     $blockcls = '';
     $ospans = array();
@@ -42,7 +43,8 @@
       if( count($modules) <=0 ){
           require( ThemeControlHelper::getLayoutPath( 'common/footer/footer_top.tpl' ) );
       }
-  ?>
+  */
+      ?>
 
 <!-- FOOTER CENTER-->
   <?php
