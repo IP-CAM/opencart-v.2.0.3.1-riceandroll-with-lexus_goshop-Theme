@@ -8582,7 +8582,8 @@ body.layout-boxed-lg #page {
   border-right: inherit;
 }
 .product-block .action > .cart {
-  width: 60%;
+  /*width: 60%;*/
+  width: 100%;
 }
 .product-block .option {
   overflow: hidden;
@@ -10692,5 +10693,9 @@ body .owl-wrapper-outer {
 
 #header-layout {
     background: #000;
+}
+
+.product-block .action > .cart {
+  width: 100%;
 }
 

@@ -69,9 +69,23 @@
     </div> 
     <div class="clearfix"></div>
     <div class="action text-center">
+      <!--
+
+      WISHLIST
+
       <div class="wishlist">
-        <button class="btn btn-default btn-outline" type="button" data-toggle="tooltip" data-placement="top" title="<?php echo $objlang->get("button_wishlist"); ?>" onclick="wishlist.addwishlist('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart-o"></i></button> 
+        <button class="btn btn-default btn-outline" type="button" data-toggle="tooltip" data-placement="top" title="
+        <?php //echo $objlang->get("button_wishlist"); ?>" onclick="wishlist.addwishlist('<?php //echo $product['product_id']; ?>');"><i class="fa fa-heart-o"></i></button> 
       </div>
+
+      COMPARE
+
+      <div class="compare">     
+        <button class="btn btn-default btn-outline" type="button" data-toggle="tooltip" data-placement="top" title="
+        <?php //echo $objlang->get("button_compare"); ?>" onclick="compare.addcompare('<?php //echo $product['product_id']; ?>');"><i class="fa fa-refresh"></i></button> 
+      </div> 
+      -->
+      
       <?php if( !isset($listingConfig['catalog_mode']) || !$listingConfig['catalog_mode'] ) { ?>
         <div class="cart">            
           <button data-loading-text="Loading..." class="btn btn-primary btn-outline" type="button" onclick="cart.addcart('<?php echo $product['product_id']; ?>');">
@@ -80,9 +94,7 @@
           </button>
         </div>
       <?php } ?>              
-      <div class="compare">     
-        <button class="btn btn-default btn-outline" type="button" data-toggle="tooltip" data-placement="top" title="<?php echo $objlang->get("button_compare"); ?>" onclick="compare.addcompare('<?php echo $product['product_id']; ?>');"><i class="fa fa-refresh"></i></button> 
-      </div>     
+          
     </div>
       
   </div>  
