@@ -28,7 +28,7 @@
   $productLayout = DIR_TEMPLATE.$config->get('config_template').'/template/common/product/'.$listingConfig['product_layout'].'.tpl'; 
 	$ourl = $this->registry->get('url');
 ?>
-<div class="panel-heading">
+<div class="panel-heading" style="background:none;">
 	<h4 class="panel-title"><?php echo $heading_title; ?></h4>
 </div>
 
