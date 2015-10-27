@@ -230,16 +230,19 @@
                             <div class="clearfix"></div>
                             <hr>
                             <div class="action clearfix">
+                                <!-- 
                                 <div class="wishlist pull-left">  
                                     <button type="button" class="wishlist btn btn-default btn-outline " title="<?php echo $button_wishlist; ?>" onclick="wishlist.addwishlist('<?php echo $product_id; ?>');"><i class="fa-fw fa fa-heart-o"></i><span><?php echo $button_wishlist; ?></span></button>
                                 </div>
+                                -->
                                 <div class="cart pull-left">
                                     <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary "><i class="fa-fw fa fa-shopping-cart"></i><?php echo $button_cart; ?></button>
                                 </div>
-                                
+                                <!--
                                 <div class="compare pull-left">
                                     <button type="button" class="compare btn btn-default btn-outline " title="<?php echo $button_compare; ?>" onclick="compare.addcompare('<?php echo $product_id; ?>');"><i class="fa-fw fa fa-refresh"></i><span><?php echo $button_compare; ?></span></button>
                                 </div>
+                                -->
                             </div>                                                  
                         </div>
                         <div class="clearfix"></div>
