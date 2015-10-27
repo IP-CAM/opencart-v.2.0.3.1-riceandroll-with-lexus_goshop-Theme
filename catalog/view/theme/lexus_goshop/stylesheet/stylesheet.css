@@ -9862,11 +9862,11 @@ body .owl-wrapper-outer {
 .product-info .action > div {
   width: 27%;
 }
-.product-info .action > div > * {
+.product-info .action > .cart {
   width: 100%;
 }
-.product-info .action > .cart {
-  width: 46%;
+.product-info .action > div > * {
+  width: 100%;
 }
 .product-info .action button {
   -webkit-border-radius: 0;
