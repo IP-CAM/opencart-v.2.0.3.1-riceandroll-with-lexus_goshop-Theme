@@ -5,19 +5,19 @@
       <div class="form-group" style="display: <?php echo (count($customer_groups) > 1 ? 'block' : 'none'); ?>;">
         <label class="control-label"><?php echo $entry_customer_group; ?></label>
         <?php foreach ($customer_groups as $customer_group) { ?>
-        <?php if ($customer_group['customer_group_id'] == $customer_group_id) { ?>
-        <div class="radio">
-          <label>
-            <input type="radio" name="customer_group_id" value="<?php echo $customer_group['customer_group_id']; ?>" checked="checked" />
-            <?php echo $customer_group['name']; ?></label>
-        </div>
-        <?php } else { ?>
-        <div class="radio">
-          <label>
-            <input type="radio" name="customer_group_id" value="<?php echo $customer_group['customer_group_id']; ?>" />
-            <?php echo $customer_group['name']; ?></label>
-        </div>
-        <?php } ?>
+          <?php if ($customer_group['customer_group_id'] == $customer_group_id) { ?>
+          <div class="radio">
+            <label>
+              <input type="radio" name="customer_group_id" value="<?php echo $customer_group['customer_group_id']; ?>" checked="checked" />
+              <?php echo $customer_group['name']; ?></label>
+          </div>
+          <?php } else { ?>
+          <div class="radio">
+            <label>
+              <input type="radio" name="customer_group_id" value="<?php echo $customer_group['customer_group_id']; ?>" />
+              <?php echo $customer_group['name']; ?></label>
+          </div>
+          <?php } ?>
         <?php } ?>
       </div>
       <div class="form-group required">
