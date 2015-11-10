@@ -235,7 +235,7 @@
                                     <button type="button" class="wishlist btn btn-default btn-outline " title="<?php echo $button_wishlist; ?>" onclick="wishlist.addwishlist('<?php echo $product_id; ?>');"><i class="fa-fw fa fa-heart-o"></i><span><?php echo $button_wishlist; ?></span></button>
                                 </div>
                                 -->
-                                <div class="cart pull-left">
+                                <div class="cart pull-left" style="width: 100%;">
                                     <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary "><i class="fa-fw fa fa-shopping-cart"></i><?php echo $button_cart; ?></button>
                                 </div>
                                 <!--
