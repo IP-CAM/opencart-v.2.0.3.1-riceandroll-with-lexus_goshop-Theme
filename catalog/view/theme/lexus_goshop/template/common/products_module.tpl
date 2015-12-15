@@ -28,14 +28,14 @@
   $productLayout = DIR_TEMPLATE.$config->get('config_template').'/template/common/product/'.$listingConfig['product_layout'].'.tpl'; 
 	$ourl = $this->registry->get('url');
 ?>
-<div class="panel-heading" style="background:none;">
+<div class="panel-heading text-center" style="background:none;">
 	<h4 class="panel-title"><?php echo $heading_title; ?></h4>
 </div>
-
+<div class></div>
 <div class="products-block" data-filenam="<?php echo( $productLayout );  ?>">
 	<?php foreach ($products as $i => $product) { $i=$i+1; ?>
 	<?php if( $i%$cols == 1 && $cols > 1 ) { ?>
-	<div class="row products-row ">
+	<div class="row-fluid products-row ">
 		<?php } ?>
 		<div class="col-lg-<?php echo $span;?> col-md-<?php echo $span;?> col-sm-6 col-xs-12 product-col">
 			<?php require( $productLayout );  ?>
