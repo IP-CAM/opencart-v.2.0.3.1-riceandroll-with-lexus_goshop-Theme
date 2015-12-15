@@ -6,7 +6,7 @@
 	$fullclass = isset($themeConfig['home_container_full'])&&$themeConfig['home_container_full']?"-full":""; 
 ?>
 
-<div class="main-columns container<?php echo $fullclass; ?>">
+<div class="main-columns container<?php echo $fullclass; ?>" style="padding-left: 0px; padding-right: 0px;">
   	<div class="row">
   		<?php if( $SPAN[0] ): ?>
 			<aside id="sidebar-left" class="col-md-<?php echo $SPAN[0];?>">
